@@ -246,23 +246,236 @@
 
 ## Canada
 
-- YYZ - Toronto Pearson International Airport, Toronto, Ontario
+#### Alberta
+- YYC - Calgary International Airport, Calgary, Alberta
+- YEG - Edmonton International Airport, Edmonton, Alberta
+
+#### British Columbia
 - YVR - Vancouver International Airport, Vancouver, British Columbia
-- YUL - Montréal-Pierre Elliott Trudeau International Airport, Montreal, Quebec
+- YYJ - Victoria International Airport, Victoria, British Columbia
+- YLW - Kelowna International Airport, Kelowna, British Columbia
+
+#### Manitoba
+- YWG - Winnipeg James Armstrong Richardson International Airport, Winnipeg, Manitoba
+
+#### New Brunswick
+- YSJ - Saint John Airport, Saint John, New Brunswick
+- YFC - Fredericton International Airport, Fredericton, New Brunswick
+
+#### Newfoundland and Labrador
+- YYT - St. John's International Airport, St. John's, Newfoundland and Labrador
+
+#### Nova Scotia
+- YHZ - Halifax Stanfield International Airport, Halifax, Nova Scotia
+
+#### Ontario
+- YYZ - Toronto Pearson International Airport, Toronto, Ontario
+- YTZ - Billy Bishop Toronto City Airport, Toronto, Ontario
+- YOW - Ottawa Macdonald-Cartier International Airport, Ottawa, Ontario
+
+#### Quebec
+- YUL - Montréal–Pierre Elliott Trudeau International Airport, Montreal, Quebec
+- YQB - Québec City Jean Lesage International Airport, Quebec City, Quebec
+
+#### Saskatchewan
+- YXE - Saskatoon John G. Diefenbaker International Airport, Saskatoon, Saskatchewan
+- YQR - Regina International Airport, Regina, Saskatchewan
+
+#### Yukon
+- YXY - Erik Nielsen Whitehorse International Airport, Whitehorse, Yukon
 
 ---
 
 ## Mexico
 
-- MEX - Mexico City International Airport, Mexico City, Mexico
-- CUN - Cancun International Airport, Cancun, Quintana Roo
+### Mexico
+
+#### Aguascalientes
+- AGU - Lic. Jesús Terán Peredo International Airport, Aguascalientes, Aguascalientes
+
+#### Baja California
+- TIJ - Tijuana International Airport, Tijuana, Baja California
+- MXL - General Rodolfo Sánchez Taboada International Airport, Mexicali, Baja California
+
+#### Baja California Sur
+- SJD - Los Cabos International Airport, San José del Cabo, Baja California Sur
+- LAP - Manuel Márquez de León International Airport, La Paz, Baja California Sur
+
+#### Campeche
+- CPE - Ing. Alberto Acuña Ongay International Airport, Campeche, Campeche
+
+#### Chiapas
+- TGZ - Ángel Albino Corzo International Airport, Tuxtla Gutiérrez, Chiapas
+
+#### Chihuahua
+- CUU - General Roberto Fierro Villalobos International Airport, Chihuahua, Chihuahua
+
+#### Coahuila
+- MTY - General Mariano Escobedo International Airport, Monterrey, Coahuila
+- TRC - Francisco Sarabia International Airport, Torreón, Coahuila
+
+#### Colima
+- CLQ - Lic. Miguel de la Madrid Airport, Colima, Colima
+
+#### Durango
+- DGO - General Guadalupe Victoria International Airport, Durango, Durango
+
+#### Guanajuato
+- BJX - Del Bajío International Airport, Silao, Guanajuato
+
+#### Guerrero
+- ACA - General Juan N. Álvarez International Airport, Acapulco, Guerrero
+- ZIH - Ixtapa-Zihuatanejo International Airport, Zihuatanejo, Guerrero
+
+#### Hidalgo
+- Pachuca - Ingeniero Juan Guillermo Villasana Airport, Pachuca, Hidalgo
+
+#### Jalisco
 - GDL - Guadalajara International Airport, Guadalajara, Jalisco
+- PVR - Lic. Gustavo Díaz Ordaz International Airport, Puerto Vallarta, Jalisco
+
+#### México
+- MEX - Mexico City International Airport, Mexico City, México
+- TLC - Lic. Adolfo López Mateos International Airport, Toluca, México
+
+#### Michoacán
+- MLM - General Francisco J. Mujica International Airport, Morelia, Michoacán
+
+#### Morelos
+- CVJ - General Mariano Matamoros Airport, Cuernavaca, Morelos
+
+#### Nayarit
+- PPE - Puerto Peñasco International Airport, Puerto Peñasco, Nayarit
+
+#### Nuevo León
+- NLD - Quetzalcóatl International Airport, Nuevo Laredo, Nuevo León
+
+#### Oaxaca
+- OAX - Xoxocotlán International Airport, Oaxaca, Oaxaca
+
+#### Puebla
+- PBC - Hermanos Serdán International Airport, Puebla, Puebla
+
+#### Querétaro
+- QRO - Querétaro Intercontinental Airport, Querétaro, Querétaro
+
+#### Quintana Roo
+- CUN - Cancún International Airport, Cancún, Quintana Roo
+- CZM - Cozumel International Airport, Cozumel, Quintana Roo
+
+#### San Luis Potosí
+- SLP - Ponciano Arriaga International Airport, San Luis Potosí, San Luis Potosí
+
+#### Sinaloa
+- CUL - Federal de Bachigualato International Airport, Culiacán, Sinaloa
+- MZT - General Rafael Buelna International Airport, Mazatlán, Sinaloa
+
+#### Sonora
+- HMO - General Ignacio Pesqueira García International Airport, Hermosillo, Sonora
+
+#### Tabasco
+- VSA - Carlos Rovirosa Pérez International Airport, Villahermosa, Tabasco
+
+#### Tamaulipas
+- TAM - General Francisco Javier Mina International Airport, Tampico, Tamaulipas
+- CVM - General Pedro J. Méndez International Airport, Ciudad Victoria, Tamaulipas
+
+#### Tlaxcala
+- TXA - Tlaxcala Airport, Tlaxcala, Tlaxcala
+
+#### Veracruz
+- VER - General Heriberto Jara International Airport, Veracruz, Veracruz
+- JAL - El Lencero Airport, Xalapa, Veracruz
+
+#### Yucatán
+- MID - Manuel Crescencio Rejón International Airport, Mérida, Yucatán
+
+#### Zacatecas
+- ZCL - General Leobardo C. Ruiz International Airport, Zacatecas, Zacatecas
 
 ---
 
 ## Caribbean
 
-- SJU - Luis Muñoz Marín International Airport, San Juan, Puerto Rico
-- SDQ - Las Américas International Airport, Santo Domingo, Dominican Republic
-- NAS - Lynden Pindling International Airport, Nassau, Bahamas
+### Caribbean
 
+#### Anguilla
+- AXA - Clayton J. Lloyd International Airport, The Valley, Anguilla
+
+#### Antigua and Barbuda
+- ANU - V.C. Bird International Airport, St. John's, Antigua and Barbuda
+
+#### Aruba
+- AUA - Queen Beatrix International Airport, Oranjestad, Aruba
+
+#### Bahamas
+- NAS - Lynden Pindling International Airport, Nassau, Bahamas
+- FPO - Grand Bahama International Airport, Freeport, Bahamas
+
+#### Barbados
+- BGI - Grantley Adams International Airport, Bridgetown, Barbados
+
+#### British Virgin Islands
+- EIS - Terrance B. Lettsome International Airport, Tortola, British Virgin Islands
+
+#### Cayman Islands
+- GCM - Owen Roberts International Airport, George Town, Cayman Islands
+
+#### Cuba
+- HAV - José Martí International Airport, Havana, Cuba
+- VRA - Juan Gualberto Gómez Airport, Varadero, Cuba
+
+#### Curaçao
+- CUR - Curaçao International Airport, Willemstad, Curaçao
+
+#### Dominica
+- DOM - Douglas-Charles Airport, Marigot, Dominica
+
+#### Dominican Republic
+- SDQ - Las Américas International Airport, Santo Domingo, Dominican Republic
+- PUJ - Punta Cana International Airport, Punta Cana, Dominican Republic
+
+#### Grenada
+- GND - Maurice Bishop International Airport, St. George's, Grenada
+
+#### Guadeloupe
+- PTP - Pointe-à-Pitre International Airport, Pointe-à-Pitre, Guadeloupe
+
+#### Haiti
+- PAP - Toussaint Louverture International Airport, Port-au-Prince, Haiti
+
+#### Jamaica
+- KIN - Norman Manley International Airport, Kingston, Jamaica
+- MBJ - Sangster International Airport, Montego Bay, Jamaica
+
+#### Martinique
+- FDF - Martinique Aimé Césaire International Airport, Fort-de-France, Martinique
+
+#### Montserrat
+- MNI - John A. Osborne Airport, Gerald's, Montserrat
+
+#### Puerto Rico
+- SJU - Luis Muñoz Marín International Airport, San Juan, Puerto Rico
+- BQN - Rafael Hernández Airport, Aguadilla, Puerto Rico
+
+#### Saint Kitts and Nevis
+- SKB - Robert L. Bradshaw International Airport, Basseterre, Saint Kitts
+- NEV - Vance W. Amory International Airport, Charlestown, Nevis
+
+#### Saint Lucia
+- UVF - Hewanorra International Airport, Vieux Fort, Saint Lucia
+- SLU - George F. L. Charles Airport, Castries, Saint Lucia
+
+#### Saint Vincent and the Grenadines
+- SVD - Argyle International Airport, Argyle, Saint Vincent and the Grenadines
+
+#### Trinidad and Tobago
+- POS - Piarco International Airport, Port of Spain, Trinidad
+- TAB - A.N.R. Robinson International Airport, Scarborough, Tobago
+
+#### Turks and Caicos Islands
+- PLS - Providenciales International Airport, Providenciales, Turks and Caicos Islands
+
+#### U.S. Virgin Islands
+- STT - Cyril E. King Airport, St. Thomas, U.S. Virgin Islands
+- STX - Henry E. Rohlsen Airport, St. Croix, U.S. Virgin Islands
