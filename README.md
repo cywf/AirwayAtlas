@@ -2,6 +2,8 @@
 
 Your go-to resource for airport city data in North America & the Caribbean! Featuring an interactive map 🗺️, powerful search 🔍, and an easy-to-integrate RESTful API 🚀.
 
+![alt text](frontend/assets/airwayatlas_img_3.png)
+
 ## Table of Contents
 
 - [Features](#features)
@@ -23,7 +25,7 @@ Your go-to resource for airport city data in North America & the Caribbean! Feat
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AirwayAtlas.git
+git clone https://github.com/cywf/AirwayAtlas.git
 ```
 
 2. Follow the instructions in the `backend` and `frontend` directories to set up the infrastructure, API, and frontend respectively.
