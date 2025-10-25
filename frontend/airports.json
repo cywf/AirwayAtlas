@@ -624,6 +624,102 @@
     "region": "Southeast"
   },
   {
+    "code": "ORD",
+    "name": "O'Hare International Airport",
+    "city": "Chicago",
+    "location": "Illinois",
+    "state": "Illinois",
+    "region": "Midwest"
+  },
+  {
+    "code": "MDW",
+    "name": "Chicago Midway International Airport",
+    "city": "Chicago",
+    "location": "Illinois",
+    "state": "Illinois",
+    "region": "Midwest"
+  },
+  {
+    "code": "IND",
+    "name": "Indianapolis International Airport",
+    "city": "Indianapolis",
+    "location": "Indiana",
+    "state": "Indiana",
+    "region": "Midwest"
+  },
+  {
+    "code": "DSM",
+    "name": "Des Moines International Airport",
+    "city": "Des Moines",
+    "location": "Iowa",
+    "state": "Iowa",
+    "region": "Midwest"
+  },
+  {
+    "code": "DTW",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "city": "Detroit",
+    "location": "Michigan",
+    "state": "Michigan",
+    "region": "Midwest"
+  },
+  {
+    "code": "GRR",
+    "name": "Gerald R. Ford International Airport",
+    "city": "Grand Rapids",
+    "location": "Michigan",
+    "state": "Michigan",
+    "region": "Midwest"
+  },
+  {
+    "code": "MSP",
+    "name": "Minneapolis-Saint Paul International Airport",
+    "city": "Minneapolis",
+    "location": "Minnesota",
+    "state": "Minnesota",
+    "region": "Midwest"
+  },
+  {
+    "code": "MCI",
+    "name": "Kansas City International Airport",
+    "city": "Kansas City",
+    "location": "Missouri",
+    "state": "Missouri",
+    "region": "Midwest"
+  },
+  {
+    "code": "STL",
+    "name": "St. Louis Lambert International Airport",
+    "city": "St. Louis",
+    "location": "Missouri",
+    "state": "Missouri",
+    "region": "Midwest"
+  },
+  {
+    "code": "CMH",
+    "name": "John Glenn Columbus International Airport",
+    "city": "Columbus",
+    "location": "Ohio",
+    "state": "Ohio",
+    "region": "Midwest"
+  },
+  {
+    "code": "CLE",
+    "name": "Cleveland Hopkins International Airport",
+    "city": "Cleveland",
+    "location": "Ohio",
+    "state": "Ohio",
+    "region": "Midwest"
+  },
+  {
+    "code": "MKE",
+    "name": "Milwaukee Mitchell International Airport",
+    "city": "Milwaukee",
+    "location": "Wisconsin",
+    "state": "Wisconsin",
+    "region": "Midwest"
+  },
+  {
     "code": "PHX",
     "name": "Phoenix Sky Harbor International Airport",
     "city": "Phoenix",

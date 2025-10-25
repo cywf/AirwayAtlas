@@ -23,9 +23,10 @@ for (const line of lines) {
     continue;
   }
   
-  // Parse airport lines (- CODE - Name, City, State/Province)
+  // Parse airport lines (- CODE - Name, City, State/Province or - CODE - Name, City)
   if (line.startsWith('- ') && line.includes(' - ')) {
-    const match = line.match(/^- ([A-Z]{3}) - (.+), (.+), (.+)$/);
+    // Try to match full format with state: CODE - Name, City, State
+    let match = line.match(/^- ([A-Z]{3}) - (.+), (.+), (.+)$/);
     if (match) {
       const [, code, name, city, location] = match;
       airports.push({
@@ -36,6 +37,20 @@ for (const line of lines) {
         state: currentState,
         region: currentRegion
       });
+    } else {
+      // Try simplified format: CODE - Name, City
+      match = line.match(/^- ([A-Z]{3}) - (.+), (.+)$/);
+      if (match) {
+        const [, code, name, city] = match;
+        airports.push({
+          code,
+          name,
+          city,
+          location: currentState, // Use current state as location
+          state: currentState,
+          region: currentRegion
+        });
+      }
     }
   }
 }
