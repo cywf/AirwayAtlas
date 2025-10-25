@@ -1,0 +1,1642 @@
+[
+  {
+    "code": "BDL",
+    "name": "Bradley International Airport",
+    "city": "Windsor Locks",
+    "location": "Connecticut",
+    "state": "Connecticut",
+    "region": "Northeast"
+  },
+  {
+    "code": "HVN",
+    "name": "Tweed New Haven Airport",
+    "city": "New Haven",
+    "location": "Connecticut",
+    "state": "Connecticut",
+    "region": "Northeast"
+  },
+  {
+    "code": "BGR",
+    "name": "Bangor International Airport",
+    "city": "Bangor",
+    "location": "Maine",
+    "state": "Maine",
+    "region": "Northeast"
+  },
+  {
+    "code": "PWM",
+    "name": "Portland International Jetport",
+    "city": "Portland",
+    "location": "Maine",
+    "state": "Maine",
+    "region": "Northeast"
+  },
+  {
+    "code": "BOS",
+    "name": "Boston Logan International Airport",
+    "city": "Boston",
+    "location": "Massachusetts",
+    "state": "Massachusetts",
+    "region": "Northeast"
+  },
+  {
+    "code": "BED",
+    "name": "Laurence G. Hanscom Field",
+    "city": "Bedford",
+    "location": "Massachusetts",
+    "state": "Massachusetts",
+    "region": "Northeast"
+  },
+  {
+    "code": "HYA",
+    "name": "Barnstable Municipal Airport",
+    "city": "Hyannis",
+    "location": "Massachusetts",
+    "state": "Massachusetts",
+    "region": "Northeast"
+  },
+  {
+    "code": "ACK",
+    "name": "Nantucket Memorial Airport",
+    "city": "Nantucket",
+    "location": "Massachusetts",
+    "state": "Massachusetts",
+    "region": "Northeast"
+  },
+  {
+    "code": "MVY",
+    "name": "Martha's Vineyard Airport",
+    "city": "Martha's Vineyard",
+    "location": "Massachusetts",
+    "state": "Massachusetts",
+    "region": "Northeast"
+  },
+  {
+    "code": "MHT",
+    "name": "Manchester-Boston Regional Airport",
+    "city": "Manchester",
+    "location": "New Hampshire",
+    "state": "New Hampshire",
+    "region": "Northeast"
+  },
+  {
+    "code": "PSM",
+    "name": "Portsmouth International Airport at Pease",
+    "city": "Portsmouth",
+    "location": "New Hampshire",
+    "state": "New Hampshire",
+    "region": "Northeast"
+  },
+  {
+    "code": "EWR",
+    "name": "Newark Liberty International Airport",
+    "city": "Newark",
+    "location": "New Jersey",
+    "state": "New Jersey",
+    "region": "Northeast"
+  },
+  {
+    "code": "ACY",
+    "name": "Atlantic City International Airport",
+    "city": "Atlantic City",
+    "location": "New Jersey",
+    "state": "New Jersey",
+    "region": "Northeast"
+  },
+  {
+    "code": "TTN",
+    "name": "Trenton-Mercer Airport",
+    "city": "Trenton",
+    "location": "New Jersey",
+    "state": "New Jersey",
+    "region": "Northeast"
+  },
+  {
+    "code": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "city": "New York City",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "LGA",
+    "name": "LaGuardia Airport",
+    "city": "New York City",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "BUF",
+    "name": "Buffalo Niagara International Airport",
+    "city": "Buffalo",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "ROC",
+    "name": "Greater Rochester International Airport",
+    "city": "Rochester",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "SYR",
+    "name": "Syracuse Hancock International Airport",
+    "city": "Syracuse",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "ALB",
+    "name": "Albany International Airport",
+    "city": "Albany",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "ISP",
+    "name": "Long Island MacArthur Airport",
+    "city": "Islip",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "SWF",
+    "name": "New York Stewart International Airport",
+    "city": "Newburgh",
+    "location": "New York",
+    "state": "New York",
+    "region": "Northeast"
+  },
+  {
+    "code": "PHL",
+    "name": "Philadelphia International Airport",
+    "city": "Philadelphia",
+    "location": "Pennsylvania",
+    "state": "Pennsylvania",
+    "region": "Northeast"
+  },
+  {
+    "code": "PIT",
+    "name": "Pittsburgh International Airport",
+    "city": "Pittsburgh",
+    "location": "Pennsylvania",
+    "state": "Pennsylvania",
+    "region": "Northeast"
+  },
+  {
+    "code": "ABE",
+    "name": "Lehigh Valley International Airport",
+    "city": "Allentown",
+    "location": "Pennsylvania",
+    "state": "Pennsylvania",
+    "region": "Northeast"
+  },
+  {
+    "code": "MDT",
+    "name": "Harrisburg International Airport",
+    "city": "Harrisburg",
+    "location": "Pennsylvania",
+    "state": "Pennsylvania",
+    "region": "Northeast"
+  },
+  {
+    "code": "PVD",
+    "name": "T.F. Green Airport",
+    "city": "Providence",
+    "location": "Rhode Island",
+    "state": "Rhode Island",
+    "region": "Northeast"
+  },
+  {
+    "code": "BTV",
+    "name": "Burlington International Airport",
+    "city": "Burlington",
+    "location": "Vermont",
+    "state": "Vermont",
+    "region": "Northeast"
+  },
+  {
+    "code": "RUT",
+    "name": "Rutland Southern Vermont Regional Airport",
+    "city": "Rutland",
+    "location": "Vermont",
+    "state": "Vermont",
+    "region": "Northeast"
+  },
+  {
+    "code": "BHM",
+    "name": "Birmingham-Shuttlesworth International Airport",
+    "city": "Birmingham",
+    "location": "Alabama",
+    "state": "Alabama",
+    "region": "Southeast"
+  },
+  {
+    "code": "HSV",
+    "name": "Huntsville International Airport",
+    "city": "Huntsville",
+    "location": "Alabama",
+    "state": "Alabama",
+    "region": "Southeast"
+  },
+  {
+    "code": "MOB",
+    "name": "Mobile Regional Airport",
+    "city": "Mobile",
+    "location": "Alabama",
+    "state": "Alabama",
+    "region": "Southeast"
+  },
+  {
+    "code": "MGM",
+    "name": "Montgomery Regional Airport",
+    "city": "Montgomery",
+    "location": "Alabama",
+    "state": "Alabama",
+    "region": "Southeast"
+  },
+  {
+    "code": "MIA",
+    "name": "Miami International Airport",
+    "city": "Miami",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "FLL",
+    "name": "Fort Lauderdale-Hollywood International Airport",
+    "city": "Fort Lauderdale",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "PBI",
+    "name": "Palm Beach International Airport",
+    "city": "West Palm Beach",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "MCO",
+    "name": "Orlando International Airport",
+    "city": "Orlando",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "TPA",
+    "name": "Tampa International Airport",
+    "city": "Tampa",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "JAX",
+    "name": "Jacksonville International Airport",
+    "city": "Jacksonville",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "RSW",
+    "name": "Southwest Florida International Airport",
+    "city": "Fort Myers",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "SRQ",
+    "name": "Sarasota-Bradenton International Airport",
+    "city": "Sarasota",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "PNS",
+    "name": "Pensacola International Airport",
+    "city": "Pensacola",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "TLH",
+    "name": "Tallahassee International Airport",
+    "city": "Tallahassee",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "ECP",
+    "name": "Northwest Florida Beaches International Airport",
+    "city": "Panama City",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "DAB",
+    "name": "Daytona Beach International Airport",
+    "city": "Daytona Beach",
+    "location": "Florida",
+    "state": "Florida",
+    "region": "Southeast"
+  },
+  {
+    "code": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "city": "Atlanta",
+    "location": "Georgia",
+    "state": "Georgia",
+    "region": "Southeast"
+  },
+  {
+    "code": "SAV",
+    "name": "Savannah/Hilton Head International Airport",
+    "city": "Savannah",
+    "location": "Georgia",
+    "state": "Georgia",
+    "region": "Southeast"
+  },
+  {
+    "code": "AGS",
+    "name": "Augusta Regional Airport",
+    "city": "Augusta",
+    "location": "Georgia",
+    "state": "Georgia",
+    "region": "Southeast"
+  },
+  {
+    "code": "VLD",
+    "name": "Valdosta Regional Airport",
+    "city": "Valdosta",
+    "location": "Georgia",
+    "state": "Georgia",
+    "region": "Southeast"
+  },
+  {
+    "code": "SDF",
+    "name": "Louisville International Airport",
+    "city": "Louisville",
+    "location": "Kentucky",
+    "state": "Kentucky",
+    "region": "Southeast"
+  },
+  {
+    "code": "LEX",
+    "name": "Blue Grass Airport",
+    "city": "Lexington",
+    "location": "Kentucky",
+    "state": "Kentucky",
+    "region": "Southeast"
+  },
+  {
+    "code": "MSY",
+    "name": "Louis Armstrong New Orleans International Airport",
+    "city": "New Orleans",
+    "location": "Louisiana",
+    "state": "Louisiana",
+    "region": "Southeast"
+  },
+  {
+    "code": "BTR",
+    "name": "Baton Rouge Metropolitan Airport",
+    "city": "Baton Rouge",
+    "location": "Louisiana",
+    "state": "Louisiana",
+    "region": "Southeast"
+  },
+  {
+    "code": "SHV",
+    "name": "Shreveport Regional Airport",
+    "city": "Shreveport",
+    "location": "Louisiana",
+    "state": "Louisiana",
+    "region": "Southeast"
+  },
+  {
+    "code": "BWI",
+    "name": "Baltimore/Washington International Thurgood Marshall Airport",
+    "city": "Baltimore",
+    "location": "Maryland",
+    "state": "Maryland",
+    "region": "Southeast"
+  },
+  {
+    "code": "SBY",
+    "name": "Salisbury-Ocean City Wicomico Regional Airport",
+    "city": "Salisbury",
+    "location": "Maryland",
+    "state": "Maryland",
+    "region": "Southeast"
+  },
+  {
+    "code": "JAN",
+    "name": "Jackson-Medgar Wiley Evers International Airport",
+    "city": "Jackson",
+    "location": "Mississippi",
+    "state": "Mississippi",
+    "region": "Southeast"
+  },
+  {
+    "code": "GPT",
+    "name": "Gulfport-Biloxi International Airport",
+    "city": "Gulfport",
+    "location": "Mississippi",
+    "state": "Mississippi",
+    "region": "Southeast"
+  },
+  {
+    "code": "CLT",
+    "name": "Charlotte Douglas International Airport",
+    "city": "Charlotte",
+    "location": "North Carolina",
+    "state": "North Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "RDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Raleigh/Durham",
+    "location": "North Carolina",
+    "state": "North Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "GSO",
+    "name": "Piedmont Triad International Airport",
+    "city": "Greensboro",
+    "location": "North Carolina",
+    "state": "North Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "AVL",
+    "name": "Asheville Regional Airport",
+    "city": "Asheville",
+    "location": "North Carolina",
+    "state": "North Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "ILM",
+    "name": "Wilmington International Airport",
+    "city": "Wilmington",
+    "location": "North Carolina",
+    "state": "North Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "CHS",
+    "name": "Charleston International Airport",
+    "city": "Charleston",
+    "location": "South Carolina",
+    "state": "South Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "GSP",
+    "name": "Greenville-Spartanburg International Airport",
+    "city": "Greer",
+    "location": "South Carolina",
+    "state": "South Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "CAE",
+    "name": "Columbia Metropolitan Airport",
+    "city": "Columbia",
+    "location": "South Carolina",
+    "state": "South Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "MYR",
+    "name": "Myrtle Beach International Airport",
+    "city": "Myrtle Beach",
+    "location": "South Carolina",
+    "state": "South Carolina",
+    "region": "Southeast"
+  },
+  {
+    "code": "BNA",
+    "name": "Nashville International Airport",
+    "city": "Nashville",
+    "location": "Tennessee",
+    "state": "Tennessee",
+    "region": "Southeast"
+  },
+  {
+    "code": "MEM",
+    "name": "Memphis International Airport",
+    "city": "Memphis",
+    "location": "Tennessee",
+    "state": "Tennessee",
+    "region": "Southeast"
+  },
+  {
+    "code": "TYS",
+    "name": "McGhee Tyson Airport",
+    "city": "Knoxville",
+    "location": "Tennessee",
+    "state": "Tennessee",
+    "region": "Southeast"
+  },
+  {
+    "code": "CHA",
+    "name": "Chattanooga Metropolitan Airport",
+    "city": "Chattanooga",
+    "location": "Tennessee",
+    "state": "Tennessee",
+    "region": "Southeast"
+  },
+  {
+    "code": "IAD",
+    "name": "Washington Dulles International Airport",
+    "city": "Dulles",
+    "location": "Virginia",
+    "state": "Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "DCA",
+    "name": "Ronald Reagan Washington National Airport",
+    "city": "Arlington",
+    "location": "Virginia",
+    "state": "Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "RIC",
+    "name": "Richmond International Airport",
+    "city": "Richmond",
+    "location": "Virginia",
+    "state": "Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "ORF",
+    "name": "Norfolk International Airport",
+    "city": "Norfolk",
+    "location": "Virginia",
+    "state": "Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "ROA",
+    "name": "Roanoke-Blacksburg Regional Airport",
+    "city": "Roanoke",
+    "location": "Virginia",
+    "state": "Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "CRW",
+    "name": "Yeager Airport",
+    "city": "Charleston",
+    "location": "West Virginia",
+    "state": "West Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "HTS",
+    "name": "Tri-State Airport",
+    "city": "Huntington",
+    "location": "West Virginia",
+    "state": "West Virginia",
+    "region": "Southeast"
+  },
+  {
+    "code": "PHX",
+    "name": "Phoenix Sky Harbor International Airport",
+    "city": "Phoenix",
+    "location": "Arizona",
+    "state": "Arizona",
+    "region": "Southwest"
+  },
+  {
+    "code": "TUS",
+    "name": "Tucson International Airport",
+    "city": "Tucson",
+    "location": "Arizona",
+    "state": "Arizona",
+    "region": "Southwest"
+  },
+  {
+    "code": "DEN",
+    "name": "Denver International Airport",
+    "city": "Denver",
+    "location": "Colorado",
+    "state": "Colorado",
+    "region": "Southwest"
+  },
+  {
+    "code": "COS",
+    "name": "Colorado Springs Airport",
+    "city": "Colorado Springs",
+    "location": "Colorado",
+    "state": "Colorado",
+    "region": "Southwest"
+  },
+  {
+    "code": "ABQ",
+    "name": "Albuquerque International Sunport",
+    "city": "Albuquerque",
+    "location": "New Mexico",
+    "state": "New Mexico",
+    "region": "Southwest"
+  },
+  {
+    "code": "OKC",
+    "name": "Will Rogers World Airport",
+    "city": "Oklahoma City",
+    "location": "Oklahoma",
+    "state": "Oklahoma",
+    "region": "Southwest"
+  },
+  {
+    "code": "TUL",
+    "name": "Tulsa International Airport",
+    "city": "Tulsa",
+    "location": "Oklahoma",
+    "state": "Oklahoma",
+    "region": "Southwest"
+  },
+  {
+    "code": "DFW",
+    "name": "Dallas/Fort Worth International Airport",
+    "city": "Dallas-Fort Worth",
+    "location": "Texas",
+    "state": "Texas",
+    "region": "Southwest"
+  },
+  {
+    "code": "IAH",
+    "name": "George Bush Intercontinental Airport",
+    "city": "Houston",
+    "location": "Texas",
+    "state": "Texas",
+    "region": "Southwest"
+  },
+  {
+    "code": "HOU",
+    "name": "William P. Hobby Airport",
+    "city": "Houston",
+    "location": "Texas",
+    "state": "Texas",
+    "region": "Southwest"
+  },
+  {
+    "code": "AUS",
+    "name": "Austin-Bergstrom International Airport",
+    "city": "Austin",
+    "location": "Texas",
+    "state": "Texas",
+    "region": "Southwest"
+  },
+  {
+    "code": "SAT",
+    "name": "San Antonio International Airport",
+    "city": "San Antonio",
+    "location": "Texas",
+    "state": "Texas",
+    "region": "Southwest"
+  },
+  {
+    "code": "ANC",
+    "name": "Ted Stevens Anchorage International Airport",
+    "city": "Anchorage",
+    "location": "Alaska",
+    "state": "Alaska",
+    "region": "West"
+  },
+  {
+    "code": "FAI",
+    "name": "Fairbanks International Airport",
+    "city": "Fairbanks",
+    "location": "Alaska",
+    "state": "Alaska",
+    "region": "West"
+  },
+  {
+    "code": "JNU",
+    "name": "Juneau International Airport",
+    "city": "Juneau",
+    "location": "Alaska",
+    "state": "Alaska",
+    "region": "West"
+  },
+  {
+    "code": "LAX",
+    "name": "Los Angeles International Airport",
+    "city": "Los Angeles",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "SAN",
+    "name": "San Diego International Airport",
+    "city": "San Diego",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "SJC",
+    "name": "Norman Y. Mineta San Jose International Airport",
+    "city": "San Jose",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "OAK",
+    "name": "Oakland International Airport",
+    "city": "Oakland",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "SMF",
+    "name": "Sacramento International Airport",
+    "city": "Sacramento",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "SNA",
+    "name": "John Wayne Airport",
+    "city": "Santa Ana",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "ONT",
+    "name": "Ontario International Airport",
+    "city": "Ontario",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "BUR",
+    "name": "Hollywood Burbank Airport",
+    "city": "Burbank",
+    "location": "California",
+    "state": "California",
+    "region": "West"
+  },
+  {
+    "code": "HNL",
+    "name": "Daniel K. Inouye International Airport",
+    "city": "Honolulu",
+    "location": "Hawaii",
+    "state": "Hawaii",
+    "region": "West"
+  },
+  {
+    "code": "OGG",
+    "name": "Kahului Airport",
+    "city": "Kahului",
+    "location": "Hawaii",
+    "state": "Hawaii",
+    "region": "West"
+  },
+  {
+    "code": "KOA",
+    "name": "Ellison Onizuka Kona International Airport",
+    "city": "Kailua-Kona",
+    "location": "Hawaii",
+    "state": "Hawaii",
+    "region": "West"
+  },
+  {
+    "code": "LIH",
+    "name": "Lihue Airport",
+    "city": "Lihue",
+    "location": "Hawaii",
+    "state": "Hawaii",
+    "region": "West"
+  },
+  {
+    "code": "BOI",
+    "name": "Boise Airport",
+    "city": "Boise",
+    "location": "Idaho",
+    "state": "Idaho",
+    "region": "West"
+  },
+  {
+    "code": "BZN",
+    "name": "Bozeman Yellowstone International Airport",
+    "city": "Bozeman",
+    "location": "Montana",
+    "state": "Montana",
+    "region": "West"
+  },
+  {
+    "code": "LAS",
+    "name": "McCarran International Airport",
+    "city": "Las Vegas",
+    "location": "Nevada",
+    "state": "Nevada",
+    "region": "West"
+  },
+  {
+    "code": "RNO",
+    "name": "Reno-Tahoe International Airport",
+    "city": "Reno",
+    "location": "Nevada",
+    "state": "Nevada",
+    "region": "West"
+  },
+  {
+    "code": "PDX",
+    "name": "Portland International Airport",
+    "city": "Portland",
+    "location": "Oregon",
+    "state": "Oregon",
+    "region": "West"
+  },
+  {
+    "code": "SLC",
+    "name": "Salt Lake City International Airport",
+    "city": "Salt Lake City",
+    "location": "Utah",
+    "state": "Utah",
+    "region": "West"
+  },
+  {
+    "code": "SEA",
+    "name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "location": "Washington",
+    "state": "Washington",
+    "region": "West"
+  },
+  {
+    "code": "GEG",
+    "name": "Spokane International Airport",
+    "city": "Spokane",
+    "location": "Washington",
+    "state": "Washington",
+    "region": "West"
+  },
+  {
+    "code": "YYC",
+    "name": "Calgary International Airport",
+    "city": "Calgary",
+    "location": "Alberta",
+    "state": "Alberta",
+    "region": "West"
+  },
+  {
+    "code": "YEG",
+    "name": "Edmonton International Airport",
+    "city": "Edmonton",
+    "location": "Alberta",
+    "state": "Alberta",
+    "region": "West"
+  },
+  {
+    "code": "YVR",
+    "name": "Vancouver International Airport",
+    "city": "Vancouver",
+    "location": "British Columbia",
+    "state": "British Columbia",
+    "region": "West"
+  },
+  {
+    "code": "YYJ",
+    "name": "Victoria International Airport",
+    "city": "Victoria",
+    "location": "British Columbia",
+    "state": "British Columbia",
+    "region": "West"
+  },
+  {
+    "code": "YLW",
+    "name": "Kelowna International Airport",
+    "city": "Kelowna",
+    "location": "British Columbia",
+    "state": "British Columbia",
+    "region": "West"
+  },
+  {
+    "code": "YWG",
+    "name": "Winnipeg James Armstrong Richardson International Airport",
+    "city": "Winnipeg",
+    "location": "Manitoba",
+    "state": "Manitoba",
+    "region": "West"
+  },
+  {
+    "code": "YSJ",
+    "name": "Saint John Airport",
+    "city": "Saint John",
+    "location": "New Brunswick",
+    "state": "New Brunswick",
+    "region": "West"
+  },
+  {
+    "code": "YFC",
+    "name": "Fredericton International Airport",
+    "city": "Fredericton",
+    "location": "New Brunswick",
+    "state": "New Brunswick",
+    "region": "West"
+  },
+  {
+    "code": "YYT",
+    "name": "St. John's International Airport",
+    "city": "St. John's",
+    "location": "Newfoundland and Labrador",
+    "state": "Newfoundland and Labrador",
+    "region": "West"
+  },
+  {
+    "code": "YHZ",
+    "name": "Halifax Stanfield International Airport",
+    "city": "Halifax",
+    "location": "Nova Scotia",
+    "state": "Nova Scotia",
+    "region": "West"
+  },
+  {
+    "code": "YYZ",
+    "name": "Toronto Pearson International Airport",
+    "city": "Toronto",
+    "location": "Ontario",
+    "state": "Ontario",
+    "region": "West"
+  },
+  {
+    "code": "YTZ",
+    "name": "Billy Bishop Toronto City Airport",
+    "city": "Toronto",
+    "location": "Ontario",
+    "state": "Ontario",
+    "region": "West"
+  },
+  {
+    "code": "YOW",
+    "name": "Ottawa Macdonald-Cartier International Airport",
+    "city": "Ottawa",
+    "location": "Ontario",
+    "state": "Ontario",
+    "region": "West"
+  },
+  {
+    "code": "YUL",
+    "name": "Montréal–Pierre Elliott Trudeau International Airport",
+    "city": "Montreal",
+    "location": "Quebec",
+    "state": "Quebec",
+    "region": "West"
+  },
+  {
+    "code": "YQB",
+    "name": "Québec City Jean Lesage International Airport",
+    "city": "Quebec City",
+    "location": "Quebec",
+    "state": "Quebec",
+    "region": "West"
+  },
+  {
+    "code": "YXE",
+    "name": "Saskatoon John G. Diefenbaker International Airport",
+    "city": "Saskatoon",
+    "location": "Saskatchewan",
+    "state": "Saskatchewan",
+    "region": "West"
+  },
+  {
+    "code": "YQR",
+    "name": "Regina International Airport",
+    "city": "Regina",
+    "location": "Saskatchewan",
+    "state": "Saskatchewan",
+    "region": "West"
+  },
+  {
+    "code": "YXY",
+    "name": "Erik Nielsen Whitehorse International Airport",
+    "city": "Whitehorse",
+    "location": "Yukon",
+    "state": "Yukon",
+    "region": "West"
+  },
+  {
+    "code": "AGU",
+    "name": "Lic. Jesús Terán Peredo International Airport",
+    "city": "Aguascalientes",
+    "location": "Aguascalientes",
+    "state": "Aguascalientes",
+    "region": "Mexico"
+  },
+  {
+    "code": "TIJ",
+    "name": "Tijuana International Airport",
+    "city": "Tijuana",
+    "location": "Baja California",
+    "state": "Baja California",
+    "region": "Mexico"
+  },
+  {
+    "code": "MXL",
+    "name": "General Rodolfo Sánchez Taboada International Airport",
+    "city": "Mexicali",
+    "location": "Baja California",
+    "state": "Baja California",
+    "region": "Mexico"
+  },
+  {
+    "code": "SJD",
+    "name": "Los Cabos International Airport",
+    "city": "San José del Cabo",
+    "location": "Baja California Sur",
+    "state": "Baja California Sur",
+    "region": "Mexico"
+  },
+  {
+    "code": "LAP",
+    "name": "Manuel Márquez de León International Airport",
+    "city": "La Paz",
+    "location": "Baja California Sur",
+    "state": "Baja California Sur",
+    "region": "Mexico"
+  },
+  {
+    "code": "CPE",
+    "name": "Ing. Alberto Acuña Ongay International Airport",
+    "city": "Campeche",
+    "location": "Campeche",
+    "state": "Campeche",
+    "region": "Mexico"
+  },
+  {
+    "code": "TGZ",
+    "name": "Ángel Albino Corzo International Airport",
+    "city": "Tuxtla Gutiérrez",
+    "location": "Chiapas",
+    "state": "Chiapas",
+    "region": "Mexico"
+  },
+  {
+    "code": "CUU",
+    "name": "General Roberto Fierro Villalobos International Airport",
+    "city": "Chihuahua",
+    "location": "Chihuahua",
+    "state": "Chihuahua",
+    "region": "Mexico"
+  },
+  {
+    "code": "MTY",
+    "name": "General Mariano Escobedo International Airport",
+    "city": "Monterrey",
+    "location": "Coahuila",
+    "state": "Coahuila",
+    "region": "Mexico"
+  },
+  {
+    "code": "TRC",
+    "name": "Francisco Sarabia International Airport",
+    "city": "Torreón",
+    "location": "Coahuila",
+    "state": "Coahuila",
+    "region": "Mexico"
+  },
+  {
+    "code": "CLQ",
+    "name": "Lic. Miguel de la Madrid Airport",
+    "city": "Colima",
+    "location": "Colima",
+    "state": "Colima",
+    "region": "Mexico"
+  },
+  {
+    "code": "DGO",
+    "name": "General Guadalupe Victoria International Airport",
+    "city": "Durango",
+    "location": "Durango",
+    "state": "Durango",
+    "region": "Mexico"
+  },
+  {
+    "code": "BJX",
+    "name": "Del Bajío International Airport",
+    "city": "Silao",
+    "location": "Guanajuato",
+    "state": "Guanajuato",
+    "region": "Mexico"
+  },
+  {
+    "code": "ACA",
+    "name": "General Juan N. Álvarez International Airport",
+    "city": "Acapulco",
+    "location": "Guerrero",
+    "state": "Guerrero",
+    "region": "Mexico"
+  },
+  {
+    "code": "ZIH",
+    "name": "Ixtapa-Zihuatanejo International Airport",
+    "city": "Zihuatanejo",
+    "location": "Guerrero",
+    "state": "Guerrero",
+    "region": "Mexico"
+  },
+  {
+    "code": "GDL",
+    "name": "Guadalajara International Airport",
+    "city": "Guadalajara",
+    "location": "Jalisco",
+    "state": "Jalisco",
+    "region": "Mexico"
+  },
+  {
+    "code": "PVR",
+    "name": "Lic. Gustavo Díaz Ordaz International Airport",
+    "city": "Puerto Vallarta",
+    "location": "Jalisco",
+    "state": "Jalisco",
+    "region": "Mexico"
+  },
+  {
+    "code": "MEX",
+    "name": "Mexico City International Airport",
+    "city": "Mexico City",
+    "location": "México",
+    "state": "México",
+    "region": "Mexico"
+  },
+  {
+    "code": "TLC",
+    "name": "Lic. Adolfo López Mateos International Airport",
+    "city": "Toluca",
+    "location": "México",
+    "state": "México",
+    "region": "Mexico"
+  },
+  {
+    "code": "MLM",
+    "name": "General Francisco J. Mujica International Airport",
+    "city": "Morelia",
+    "location": "Michoacán",
+    "state": "Michoacán",
+    "region": "Mexico"
+  },
+  {
+    "code": "CVJ",
+    "name": "General Mariano Matamoros Airport",
+    "city": "Cuernavaca",
+    "location": "Morelos",
+    "state": "Morelos",
+    "region": "Mexico"
+  },
+  {
+    "code": "PPE",
+    "name": "Puerto Peñasco International Airport",
+    "city": "Puerto Peñasco",
+    "location": "Nayarit",
+    "state": "Nayarit",
+    "region": "Mexico"
+  },
+  {
+    "code": "NLD",
+    "name": "Quetzalcóatl International Airport",
+    "city": "Nuevo Laredo",
+    "location": "Nuevo León",
+    "state": "Nuevo León",
+    "region": "Mexico"
+  },
+  {
+    "code": "OAX",
+    "name": "Xoxocotlán International Airport",
+    "city": "Oaxaca",
+    "location": "Oaxaca",
+    "state": "Oaxaca",
+    "region": "Mexico"
+  },
+  {
+    "code": "PBC",
+    "name": "Hermanos Serdán International Airport",
+    "city": "Puebla",
+    "location": "Puebla",
+    "state": "Puebla",
+    "region": "Mexico"
+  },
+  {
+    "code": "QRO",
+    "name": "Querétaro Intercontinental Airport",
+    "city": "Querétaro",
+    "location": "Querétaro",
+    "state": "Querétaro",
+    "region": "Mexico"
+  },
+  {
+    "code": "CUN",
+    "name": "Cancún International Airport",
+    "city": "Cancún",
+    "location": "Quintana Roo",
+    "state": "Quintana Roo",
+    "region": "Mexico"
+  },
+  {
+    "code": "CZM",
+    "name": "Cozumel International Airport",
+    "city": "Cozumel",
+    "location": "Quintana Roo",
+    "state": "Quintana Roo",
+    "region": "Mexico"
+  },
+  {
+    "code": "SLP",
+    "name": "Ponciano Arriaga International Airport",
+    "city": "San Luis Potosí",
+    "location": "San Luis Potosí",
+    "state": "San Luis Potosí",
+    "region": "Mexico"
+  },
+  {
+    "code": "CUL",
+    "name": "Federal de Bachigualato International Airport",
+    "city": "Culiacán",
+    "location": "Sinaloa",
+    "state": "Sinaloa",
+    "region": "Mexico"
+  },
+  {
+    "code": "MZT",
+    "name": "General Rafael Buelna International Airport",
+    "city": "Mazatlán",
+    "location": "Sinaloa",
+    "state": "Sinaloa",
+    "region": "Mexico"
+  },
+  {
+    "code": "HMO",
+    "name": "General Ignacio Pesqueira García International Airport",
+    "city": "Hermosillo",
+    "location": "Sonora",
+    "state": "Sonora",
+    "region": "Mexico"
+  },
+  {
+    "code": "VSA",
+    "name": "Carlos Rovirosa Pérez International Airport",
+    "city": "Villahermosa",
+    "location": "Tabasco",
+    "state": "Tabasco",
+    "region": "Mexico"
+  },
+  {
+    "code": "TAM",
+    "name": "General Francisco Javier Mina International Airport",
+    "city": "Tampico",
+    "location": "Tamaulipas",
+    "state": "Tamaulipas",
+    "region": "Mexico"
+  },
+  {
+    "code": "CVM",
+    "name": "General Pedro J. Méndez International Airport",
+    "city": "Ciudad Victoria",
+    "location": "Tamaulipas",
+    "state": "Tamaulipas",
+    "region": "Mexico"
+  },
+  {
+    "code": "TXA",
+    "name": "Tlaxcala Airport",
+    "city": "Tlaxcala",
+    "location": "Tlaxcala",
+    "state": "Tlaxcala",
+    "region": "Mexico"
+  },
+  {
+    "code": "VER",
+    "name": "General Heriberto Jara International Airport",
+    "city": "Veracruz",
+    "location": "Veracruz",
+    "state": "Veracruz",
+    "region": "Mexico"
+  },
+  {
+    "code": "JAL",
+    "name": "El Lencero Airport",
+    "city": "Xalapa",
+    "location": "Veracruz",
+    "state": "Veracruz",
+    "region": "Mexico"
+  },
+  {
+    "code": "MID",
+    "name": "Manuel Crescencio Rejón International Airport",
+    "city": "Mérida",
+    "location": "Yucatán",
+    "state": "Yucatán",
+    "region": "Mexico"
+  },
+  {
+    "code": "ZCL",
+    "name": "General Leobardo C. Ruiz International Airport",
+    "city": "Zacatecas",
+    "location": "Zacatecas",
+    "state": "Zacatecas",
+    "region": "Mexico"
+  },
+  {
+    "code": "AXA",
+    "name": "Clayton J. Lloyd International Airport",
+    "city": "The Valley",
+    "location": "Anguilla",
+    "state": "Anguilla",
+    "region": "Caribbean"
+  },
+  {
+    "code": "ANU",
+    "name": "V.C. Bird International Airport",
+    "city": "St. John's",
+    "location": "Antigua and Barbuda",
+    "state": "Antigua and Barbuda",
+    "region": "Caribbean"
+  },
+  {
+    "code": "AUA",
+    "name": "Queen Beatrix International Airport",
+    "city": "Oranjestad",
+    "location": "Aruba",
+    "state": "Aruba",
+    "region": "Caribbean"
+  },
+  {
+    "code": "NAS",
+    "name": "Lynden Pindling International Airport",
+    "city": "Nassau",
+    "location": "Bahamas",
+    "state": "Bahamas",
+    "region": "Caribbean"
+  },
+  {
+    "code": "FPO",
+    "name": "Grand Bahama International Airport",
+    "city": "Freeport",
+    "location": "Bahamas",
+    "state": "Bahamas",
+    "region": "Caribbean"
+  },
+  {
+    "code": "BGI",
+    "name": "Grantley Adams International Airport",
+    "city": "Bridgetown",
+    "location": "Barbados",
+    "state": "Barbados",
+    "region": "Caribbean"
+  },
+  {
+    "code": "EIS",
+    "name": "Terrance B. Lettsome International Airport",
+    "city": "Tortola",
+    "location": "British Virgin Islands",
+    "state": "British Virgin Islands",
+    "region": "Caribbean"
+  },
+  {
+    "code": "GCM",
+    "name": "Owen Roberts International Airport",
+    "city": "George Town",
+    "location": "Cayman Islands",
+    "state": "Cayman Islands",
+    "region": "Caribbean"
+  },
+  {
+    "code": "HAV",
+    "name": "José Martí International Airport",
+    "city": "Havana",
+    "location": "Cuba",
+    "state": "Cuba",
+    "region": "Caribbean"
+  },
+  {
+    "code": "VRA",
+    "name": "Juan Gualberto Gómez Airport",
+    "city": "Varadero",
+    "location": "Cuba",
+    "state": "Cuba",
+    "region": "Caribbean"
+  },
+  {
+    "code": "CUR",
+    "name": "Curaçao International Airport",
+    "city": "Willemstad",
+    "location": "Curaçao",
+    "state": "Curaçao",
+    "region": "Caribbean"
+  },
+  {
+    "code": "DOM",
+    "name": "Douglas-Charles Airport",
+    "city": "Marigot",
+    "location": "Dominica",
+    "state": "Dominica",
+    "region": "Caribbean"
+  },
+  {
+    "code": "SDQ",
+    "name": "Las Américas International Airport",
+    "city": "Santo Domingo",
+    "location": "Dominican Republic",
+    "state": "Dominican Republic",
+    "region": "Caribbean"
+  },
+  {
+    "code": "PUJ",
+    "name": "Punta Cana International Airport",
+    "city": "Punta Cana",
+    "location": "Dominican Republic",
+    "state": "Dominican Republic",
+    "region": "Caribbean"
+  },
+  {
+    "code": "GND",
+    "name": "Maurice Bishop International Airport",
+    "city": "St. George's",
+    "location": "Grenada",
+    "state": "Grenada",
+    "region": "Caribbean"
+  },
+  {
+    "code": "PTP",
+    "name": "Pointe-à-Pitre International Airport",
+    "city": "Pointe-à-Pitre",
+    "location": "Guadeloupe",
+    "state": "Guadeloupe",
+    "region": "Caribbean"
+  },
+  {
+    "code": "PAP",
+    "name": "Toussaint Louverture International Airport",
+    "city": "Port-au-Prince",
+    "location": "Haiti",
+    "state": "Haiti",
+    "region": "Caribbean"
+  },
+  {
+    "code": "KIN",
+    "name": "Norman Manley International Airport",
+    "city": "Kingston",
+    "location": "Jamaica",
+    "state": "Jamaica",
+    "region": "Caribbean"
+  },
+  {
+    "code": "MBJ",
+    "name": "Sangster International Airport",
+    "city": "Montego Bay",
+    "location": "Jamaica",
+    "state": "Jamaica",
+    "region": "Caribbean"
+  },
+  {
+    "code": "FDF",
+    "name": "Martinique Aimé Césaire International Airport",
+    "city": "Fort-de-France",
+    "location": "Martinique",
+    "state": "Martinique",
+    "region": "Caribbean"
+  },
+  {
+    "code": "MNI",
+    "name": "John A. Osborne Airport",
+    "city": "Gerald's",
+    "location": "Montserrat",
+    "state": "Montserrat",
+    "region": "Caribbean"
+  },
+  {
+    "code": "SJU",
+    "name": "Luis Muñoz Marín International Airport",
+    "city": "San Juan",
+    "location": "Puerto Rico",
+    "state": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "code": "BQN",
+    "name": "Rafael Hernández Airport",
+    "city": "Aguadilla",
+    "location": "Puerto Rico",
+    "state": "Puerto Rico",
+    "region": "Caribbean"
+  },
+  {
+    "code": "SKB",
+    "name": "Robert L. Bradshaw International Airport",
+    "city": "Basseterre",
+    "location": "Saint Kitts",
+    "state": "Saint Kitts and Nevis",
+    "region": "Caribbean"
+  },
+  {
+    "code": "NEV",
+    "name": "Vance W. Amory International Airport",
+    "city": "Charlestown",
+    "location": "Nevis",
+    "state": "Saint Kitts and Nevis",
+    "region": "Caribbean"
+  },
+  {
+    "code": "UVF",
+    "name": "Hewanorra International Airport",
+    "city": "Vieux Fort",
+    "location": "Saint Lucia",
+    "state": "Saint Lucia",
+    "region": "Caribbean"
+  },
+  {
+    "code": "SLU",
+    "name": "George F. L. Charles Airport",
+    "city": "Castries",
+    "location": "Saint Lucia",
+    "state": "Saint Lucia",
+    "region": "Caribbean"
+  },
+  {
+    "code": "SVD",
+    "name": "Argyle International Airport",
+    "city": "Argyle",
+    "location": "Saint Vincent and the Grenadines",
+    "state": "Saint Vincent and the Grenadines",
+    "region": "Caribbean"
+  },
+  {
+    "code": "POS",
+    "name": "Piarco International Airport",
+    "city": "Port of Spain",
+    "location": "Trinidad",
+    "state": "Trinidad and Tobago",
+    "region": "Caribbean"
+  },
+  {
+    "code": "TAB",
+    "name": "A.N.R. Robinson International Airport",
+    "city": "Scarborough",
+    "location": "Tobago",
+    "state": "Trinidad and Tobago",
+    "region": "Caribbean"
+  },
+  {
+    "code": "PLS",
+    "name": "Providenciales International Airport",
+    "city": "Providenciales",
+    "location": "Turks and Caicos Islands",
+    "state": "Turks and Caicos Islands",
+    "region": "Caribbean"
+  },
+  {
+    "code": "STT",
+    "name": "Cyril E. King Airport",
+    "city": "St. Thomas",
+    "location": "U.S. Virgin Islands",
+    "state": "U.S. Virgin Islands",
+    "region": "Caribbean"
+  },
+  {
+    "code": "STX",
+    "name": "Henry E. Rohlsen Airport",
+    "city": "St. Croix",
+    "location": "U.S. Virgin Islands",
+    "state": "U.S. Virgin Islands",
+    "region": "Caribbean"
+  }
+]
