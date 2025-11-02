@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirwayAtlas - Airport City Data for North America & the Caribbean</title>
+    <meta name="description" content="Comprehensive database of airport cities in the USA, Canada, Mexico, and the Caribbean with interactive map and powerful search.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>✈️ AirwayAtlas 🌎</h1>
+                <p class="tagline">Your go-to resource for airport city data in North America & the Caribbean</p>
+            </div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#map">Map</a>
+                <a href="#search">Search</a>
+                <a href="https://github.com/cywf/AirwayAtlas" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Explore Airport Cities Across North America</h2>
+                <p>Interactive map 🗺️, powerful search 🔍, and easy-to-integrate RESTful API 🚀</p>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Comprehensive Database</h3>
+                        <p>Complete database of airport cities in the USA, Canada, Mexico, and the Caribbean</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🗺️</div>
+                        <h3>Interactive Map</h3>
+                        <p>Easy visualization of airport locations and control centers</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Powerful Search</h3>
+                        <p>Search by airport code, city, state, or region</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>RESTful API</h3>
+                        <p>Seamless integration with third-party applications</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="search" class="search-section">
+            <div class="container">
+                <h2>Search Airports</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search by code, city, state, or region...">
+                    <button id="searchBtn" onclick="performSearch()">Search</button>
+                    <button id="clearBtn" onclick="clearSearch()">Clear</button>
+                </div>
+                <div id="searchStats" class="search-stats"></div>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </section>
+
+        <section id="map" class="map-section">
+            <div class="container">
+                <h2>Interactive Map</h2>
+                <p class="map-info">Click on markers to view airport details</p>
+                <div id="mapContainer" class="map-container"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About AirwayAtlas</h2>
+                <p>AirwayAtlas is your comprehensive resource for airport city data across North America and the Caribbean. Whether you're a developer looking to integrate airport data into your application, a traveler planning your next trip, or simply curious about aviation infrastructure, AirwayAtlas provides the tools and data you need.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number" id="totalAirports">0</span>
+                        <span class="stat-label">Airports</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="totalRegions">0</span>
+                        <span class="stat-label">Regions</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="totalStates">0</span>
+                        <span class="stat-label">States/Provinces</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023-2025 AirwayAtlas. Licensed under AGPL License.</p>
+            <p>
+                <a href="https://github.com/cywf/AirwayAtlas" target="_blank">GitHub</a> |
+                <a href="https://github.com/cywf/AirwayAtlas/issues" target="_blank">Report Issue</a> |
+                <a href="https://github.com/cywf/AirwayAtlas/blob/main/LICENSE.md" target="_blank">License</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

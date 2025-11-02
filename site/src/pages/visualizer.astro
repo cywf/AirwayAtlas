@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MermaidViewer from '../components/MermaidViewer';
+---
+
+<Layout title="Project Visualizer">
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-4">Project Visualizer</h1>
+      <p class="text-lg opacity-80">
+        Interactive Mermaid diagrams showing project architecture and workflows
+      </p>
+    </div>
+
+    <MermaidViewer client:load />
+  </div>
+</Layout>

@@ -1,0 +1,167 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const docs = [
+  {
+    title: 'README',
+    description: 'Project overview, features, and quick start guide',
+    path: 'README.md',
+    url: 'https://github.com/cywf/AirwayAtlas/blob/main/README.md',
+  },
+  {
+    title: 'Master Airport List',
+    description: 'Complete list of airports in North America & Caribbean',
+    path: 'docs/master-airport-list.md',
+    url: 'https://github.com/cywf/AirwayAtlas/blob/main/docs/master-airport-list.md',
+  },
+  {
+    title: 'Contributing Guide',
+    description: 'How to contribute to AirwayAtlas',
+    path: 'CONTRIBUTING.md',
+    url: 'https://github.com/cywf/AirwayAtlas/blob/main/CONTRIBUTING.md',
+  },
+  {
+    title: 'License',
+    description: 'AGPL-3.0 License information',
+    path: 'LICENSE.md',
+    url: 'https://github.com/cywf/AirwayAtlas/blob/main/LICENSE.md',
+  },
+];
+---
+
+<Layout title="Documentation">
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-4">Documentation</h1>
+      <p class="text-lg opacity-80">
+        Learn how to use AirwayAtlas, contribute, and integrate with the API
+      </p>
+    </div>
+
+    <!-- Documentation Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+      {
+        docs.map((doc) => (
+          <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow">
+            <div class="card-body">
+              <h2 class="card-title">{doc.title}</h2>
+              <p class="text-sm opacity-80">{doc.description}</p>
+              <div class="card-actions justify-end mt-4">
+                <a
+                  href={doc.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-sm"
+                >
+                  Open in GitHub
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <!-- Quick Links -->
+    <div class="divider">Additional Resources</div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="card bg-base-200 shadow">
+        <div class="card-body">
+          <h3 class="card-title text-lg">Backend API</h3>
+          <p class="text-sm opacity-80">
+            Information about the optional backend REST API (currently in development)
+          </p>
+          <div class="card-actions justify-end mt-2">
+            <a
+              href="https://github.com/cywf/AirwayAtlas/tree/main/backend"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline btn-sm"
+            >
+              View Backend
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-200 shadow">
+        <div class="card-body">
+          <h3 class="card-title text-lg">GitHub Pages Setup</h3>
+          <p class="text-sm opacity-80">
+            Documentation on how this site is built and deployed
+          </p>
+          <div class="card-actions justify-end mt-2">
+            <a
+              href="https://github.com/cywf/AirwayAtlas/blob/main/docs/github-pages-setup.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline btn-sm"
+            >
+              View Setup
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-200 shadow">
+        <div class="card-body">
+          <h3 class="card-title text-lg">CI/CD Workflow</h3>
+          <p class="text-sm opacity-80">
+            Automated build and deployment pipeline configuration
+          </p>
+          <div class="card-actions justify-end mt-2">
+            <a
+              href="https://github.com/cywf/AirwayAtlas/blob/main/.github/workflows/pages.yml"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline btn-sm"
+            >
+              View Workflow
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Attribution -->
+    <div class="mt-8 alert alert-info">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        class="stroke-current shrink-0 w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+      <div>
+        <h3 class="font-bold">Data Snapshots & Privacy</h3>
+        <div class="text-sm">
+          <p class="mt-2">
+            Repository statistics, discussions, and project data are fetched during CI/CD build time and stored as static JSON snapshots.
+            No GitHub tokens or sensitive data are exposed to the client. All data is public information from the repository.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

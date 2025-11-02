@@ -1,0 +1,151 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      
+      # Prepare the Leaflet frontend app
+      - name: Install root dependencies
+        run: npm ci
+      
+      - name: Parse airport data
+        run: |
+          if [ ! -f frontend/airports.json ]; then
+            echo "airports.json not found, running parse..."
+            npm run parse
+          else
+            echo "airports.json exists, skipping parse"
+          fi
+      
+      - name: Copy frontend to site/public/app
+        run: |
+          mkdir -p site/public/app
+          cp -r frontend/* site/public/app/
+          echo "Frontend files copied to site/public/app/"
+          ls -la site/public/app/
+      
+      # Install site dependencies
+      - name: Install site dependencies
+        working-directory: ./site
+        run: npm ci
+      
+      # Create data directory
+      - name: Create data directory
+        run: mkdir -p site/public/data
+      
+      # Fetch repository data snapshots
+      - name: Fetch repository statistics
+        working-directory: ./site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx tsx scripts/fetch_repo_data.ts || echo "Failed to fetch repo data, using fallback"
+      
+      - name: Fetch discussions
+        working-directory: ./site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx tsx scripts/fetch_discussions.ts || echo "Failed to fetch discussions, using fallback"
+      
+      - name: Fetch projects data
+        working-directory: ./site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx tsx scripts/fetch_projects.ts || echo "Failed to fetch projects, using fallback"
+      
+      # Discover and copy Mermaid diagrams
+      - name: Discover Mermaid diagrams
+        run: |
+          mkdir -p site/public/diagrams
+          
+          # Find .mmd files
+          if find . -name "*.mmd" -type f | grep -q .; then
+            echo "Found .mmd files, copying..."
+            find . -name "*.mmd" -type f -exec cp {} site/public/diagrams/ \;
+            
+            # Create index.json
+            cd site/public/diagrams
+            echo "[" > index.json
+            first=true
+            for file in *.mmd; do
+              if [ -f "$file" ]; then
+                [ "$first" = false ] && echo "," >> index.json
+                name="${file%.mmd}"
+                echo "  {\"name\": \"$name\", \"path\": \"/diagrams/$file\"}" >> index.json
+                first=false
+              fi
+            done
+            echo "]" >> index.json
+            echo "Created diagrams index"
+          else
+            echo "No .mmd files found, creating empty index"
+            echo "[]" > site/public/diagrams/index.json
+          fi
+      
+      # Build the Astro site
+      - name: Build Astro site
+        working-directory: ./site
+        run: npm run build
+      
+      - name: Verify build artifacts
+        run: |
+          echo "Checking build artifacts..."
+          ls -la site/dist/
+          test -d site/dist/app || exit 1
+          echo "All required files present!"
+      
+      # Upload artifact for deployment
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './site/dist'
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      
+      - name: Output deployment URL
+        run: |
+          echo "Deployed to: ${{ steps.deployment.outputs.page_url }}"

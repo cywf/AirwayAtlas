@@ -1,0 +1,191 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const baseGitHubUrl = 'https://github.com/cywf/AirwayAtlas/issues/new';
+const issueTemplateUrl = 'https://github.com/cywf/AirwayAtlas/issues/new/choose';
+
+// Prefilled URLs for quick issue creation
+const bugUrl = `${baseGitHubUrl}?labels=bug&template=bug_report.md&title=[Bug]%20`;
+const featureUrl = `${baseGitHubUrl}?labels=enhancement&template=feature_request.md&title=[Feature]%20`;
+const docsUrl = `${baseGitHubUrl}?labels=documentation&template=documentation.md&title=[Docs]%20`;
+---
+
+<Layout title="Create Issue">
+  <div class="container mx-auto px-4 py-8 max-w-4xl">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-4">Create an Issue</h1>
+      <p class="text-lg opacity-80">
+        Choose the type of issue you'd like to create. We'll help you get started with a template.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      <!-- Bug Report -->
+      <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow">
+        <div class="card-body">
+          <div class="text-5xl mb-4">🐛</div>
+          <h2 class="card-title">Bug Report</h2>
+          <p class="text-sm opacity-80 mb-4">
+            Something isn't working as expected? Let us know!
+          </p>
+          <div class="card-actions">
+            <a
+              href={bugUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary w-full"
+            >
+              Report Bug
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Request -->
+      <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow">
+        <div class="card-body">
+          <div class="text-5xl mb-4">✨</div>
+          <h2 class="card-title">Feature Request</h2>
+          <p class="text-sm opacity-80 mb-4">
+            Have an idea for a new feature? Share it with us!
+          </p>
+          <div class="card-actions">
+            <a
+              href={featureUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary w-full"
+            >
+              Request Feature
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Documentation -->
+      <div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow">
+        <div class="card-body">
+          <div class="text-5xl mb-4">📚</div>
+          <h2 class="card-title">Documentation</h2>
+          <p class="text-sm opacity-80 mb-4">
+            Found unclear or missing documentation? Help us improve it!
+          </p>
+          <div class="card-actions">
+            <a
+              href={docsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-accent w-full"
+            >
+              Improve Docs
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- General Issue Creation -->
+    <div class="card bg-base-200 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title">Other Issue Types</h2>
+        <p class="text-sm opacity-80 mb-4">
+          Need to create a different type of issue? Use our issue template chooser.
+        </p>
+        <div class="card-actions">
+          <a
+            href={issueTemplateUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            Choose from Templates
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Guidelines -->
+    <div class="mt-8 alert alert-info">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        class="stroke-current shrink-0 w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+      <div>
+        <h3 class="font-bold">Before creating an issue</h3>
+        <div class="text-sm">
+          <ul class="list-disc list-inside mt-2">
+            <li>Search existing issues to avoid duplicates</li>
+            <li>Provide as much detail as possible</li>
+            <li>Include steps to reproduce for bugs</li>
+            <li>Be respectful and constructive</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

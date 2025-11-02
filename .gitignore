@@ -30,3 +30,12 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+# Astro
+.astro/
+
+# Site build artifacts
+site/dist/
+site/.astro/
+site/public/data/*.json
+site/public/diagrams/*.json

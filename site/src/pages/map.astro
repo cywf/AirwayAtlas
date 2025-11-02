@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const baseUrl = import.meta.env.BASE_URL || '/AirwayAtlas';
+---
+
+<Layout title="Interactive Map">
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-6">
+      <h1 class="text-4xl font-bold mb-4">Interactive Airport Map</h1>
+      <div class="alert alert-info shadow-lg mb-6">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          class="stroke-current shrink-0 w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+        <div>
+          <h3 class="font-bold">Data Attribution</h3>
+          <div class="text-sm">
+            Map powered by Leaflet.js | Airport data parsed from master-airport-list.md | 
+            Search and visualization functionality provided by scripts.js
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Embedded Map -->
+    <div class="card bg-base-200 shadow-xl">
+      <div class="card-body p-0">
+        <iframe
+          src={`${baseUrl}/app/index.html`}
+          title="AirwayAtlas Interactive Map"
+          class="w-full h-[800px] border-0 rounded-lg"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="mt-6 text-sm opacity-70 text-center">
+      <p>
+        Having issues with the map? <a
+          href="https://github.com/cywf/AirwayAtlas/issues"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link link-primary"
+        >Report a bug</a>
+      </p>
+    </div>
+  </div>
+</Layout>

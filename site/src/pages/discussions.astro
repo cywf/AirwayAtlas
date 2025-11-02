@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DiscussionsList from '../components/DiscussionsList';
+---
+
+<Layout title="Discussions">
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-4">GitHub Discussions</h1>
+      <p class="text-lg opacity-80 mb-4">
+        Join the conversation about AirwayAtlas features, questions, and ideas
+      </p>
+      <a
+        href="https://github.com/cywf/AirwayAtlas/discussions"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+      >
+        Start a New Discussion
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-5 h-5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <DiscussionsList client:load />
+  </div>
+</Layout>
