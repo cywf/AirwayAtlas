@@ -145,10 +145,10 @@ async function fetchProjectsV2() {
         status,
       };
 
-      if (!columns[status]) {
-        columns['To Do']?.push(projectItem);
-      } else {
-        columns[status].push(projectItem);
+      // Add item to the appropriate column
+      const targetColumn = columns[status] || columns['To Do'];
+      if (targetColumn) {
+        targetColumn.push(projectItem);
       }
     });
 

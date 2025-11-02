@@ -10,7 +10,7 @@ const THEMES = [
   'neon-accent',
 ];
 
-const DEFAULT_THEME = import.meta.env.DEFAULT_THEME || 'nightfall';
+const DEFAULT_THEME = 'nightfall';
 
 export default function ThemeSwitcher() {
   const [theme, setTheme] = useState<string>(DEFAULT_THEME);
